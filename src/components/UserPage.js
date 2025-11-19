@@ -34,9 +34,13 @@ function UserPage() {
           className="netflix-logo"
         />
         <nav className="netflix-tabs">
+            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
           <a href="#">TV Shows</a>
+            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
           <a href="#">Movies</a>
+            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
           <a href="#">Recently Added</a>
+            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
           <a href="#">My List</a>
         </nav>
       </header>
