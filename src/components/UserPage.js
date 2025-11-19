@@ -34,14 +34,17 @@ function UserPage() {
           className="netflix-logo"
         />
         <nav className="netflix-tabs">
-            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
-          <a href="#">TV Shows</a>
-            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
-          <a href="#">Movies</a>
-            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
-          <a href="#">Recently Added</a>
-            /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
-          <a href="#">My List</a>
+            {/* TV Shows tab */}
+  <button type="button" className="tab-btn">TV Shows</button>
+
+  {/* Movies tab */}
+  <button type="button" className="tab-btn">Movies</button>
+
+  {/* Recently Added tab */}
+  <button type="button" className="tab-btn">Recently Added</button>
+
+  {/* My List tab */}
+  <button type="button" className="tab-btn">My List</button>
         </nav>
       </header>
 
